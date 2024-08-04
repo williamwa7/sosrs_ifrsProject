@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>SOS RS - Mapa de Abrigos</title>
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top p-2">
+		<a href="index.html" class="navbar-brand d-flex align-items-center gap-2 fs-4 fw-bold">
+			<span class="material-symbols-outlined fs-2 text-success fw-bold">heart_plus</span>
+			<span class="material-symbols-outlined fs-1 text-danger">sos</span>
+			<span class="text-warning"> RS </span>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ms-auto gap-4">
+				<li class="nav-item">
+					<a class="nav-link d-flex align-items-center gap-1" href="index.html">
+						<span class="material-symbols-outlined">home</span>
+						Home
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link d-flex align-items-center gap-1 text-danger fw-bold" href="#">
+						<span class="material-symbols-outlined">map</span>
+						Mapa
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link d-flex align-items-center gap-1" href="recursos.html">
+						<span class="material-symbols-outlined">gpp_maybe</span>
+						Recursos de Emergência
+					</a>
+				</li>
+				<li class="nav-item"><a class="nav-link d-flex align-items-center gap-1" href="doacoes.html">
+						<span class="material-symbols-outlined">volunteer_activism</span>
+						Doações e Voluntariado
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link d-flex align-items-center gap-1" href="blog.html">
+						<span class="material-symbols-outlined">article</span>
+						Blog e Guias
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="content-body">
+		<div
+			class="banner-page my-5 py-5 bg-success text-center text-white d-flex justify-content-center">
+			<span class="material-symbols-outlined me-3 fs-1">pin_drop</span>
+			<h2><strong>Mapa de Abrigos e Áreas de Risco</strong></h2>
+		</div>		
+		<div class="container">
+			<div class="d-flex flex-column flex-lg-row align-items-center justify-content-center py-4 gap-lg-5">
+				<div class="fs-5">
+					<p>Encontre os abrigos temporários mais próximos,
+						áreas de risco, pontos de coleta e armazenamento de
+						doações e muitas outras informações no mapa</p>
+				</div>
+				<a class="btn btn-outline-success my-3"
+					href="https://www.google.com/maps/d/viewer?mid=19EzXoo8o1DZE2Xj9_QCo5dX9SyX1kLs&femb=1&ll=-30.038931110014854%2C-51.22660419544&z=12"
+					target="_blank">
+					Abrir Mapa Completo >
+				</a>
+			</div>
+			<div class="map-container">
+				<iframe
+					src="https://www.google.com/maps/d/embed?mid=19EzXoo8o1DZE2Xj9_QCo5dX9SyX1kLs&ehbc=2E312F&noprof=1"
+					width="100%" height="650" style="border: 0" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+					class="rounded"
+					>
+				</iframe>
+			</div>
+		</div>
+	</div>
+	<footer class="d-flex flex-column align-items-center py-3 text-white mt-5 fw-bold">
+		<a href="#" class="back-to-top-btn">
+			<span class="material-symbols-outlined fs-2 fw-bold">arrow_upward</span>
+		</a>
+		<span>&copy; 2024 SOS RS. Todos os direitos reservados.</span>
+		<small>Desenvolvido por:
+			<a class="text-white" href="https://github.com/williamwa7" target="_blank">William Alves</a></small>
+	</footer>
+
+</body>
+
+</html>
